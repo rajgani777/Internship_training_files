@@ -48,7 +48,7 @@ function accessHtml(e){
 }
 
 
-async function retrieveData(){
+export async function retrieveData(){
    try{ // Promise.all([
     //     fetch("https://jsonplaceholder.typicode.com/posts"),
     //     fetch("https://jsonplaceholder.typicode.com/todos"),
@@ -108,4 +108,4 @@ async function retrieveData(){
     console.error("Error fetching data:", error);
 }
 }
-retrieveData();
+// retrieveData();

@@ -27,3 +27,4 @@ let str2= "Team";
 let str3 = `${str1} ${str2} the result is ${addition(abc,def)}`;
 let str4 = str1+str2;
 console.log("String result:",str3);
+
